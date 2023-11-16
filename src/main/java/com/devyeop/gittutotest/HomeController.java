@@ -17,6 +17,12 @@ public class HomeController {
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) {
 		
+		String commit_1 = "asdf";
+		String commit_2 = "asdf";
+		String commit_3 = "asdf";
+		String commit_4 = "asdf";
+		String commit_5 = "asdf";
+		
 		return "home";
 	}
 	
